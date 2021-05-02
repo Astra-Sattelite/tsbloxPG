@@ -2,4 +2,4 @@
 /out
 /include
 *.tsbuildinfo
- .vscode/
+.vscode

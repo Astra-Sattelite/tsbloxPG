@@ -1,3 +1,3 @@
 import { makeHello } from "shared/module";
 
-print(makeHello("main.client.ts"));
+print(makeHello("Wow such fuction, omg client"));
