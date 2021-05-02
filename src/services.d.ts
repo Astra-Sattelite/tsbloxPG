@@ -3,8 +3,9 @@ export {};
 declare global {
     interface Workspace extends Instance {
         Entity: Model & {
-            Body: Part;
+            Legs: Part;
             Head: Part;
+            Body: Part;
         }
         TestPart: Part & {
         }  

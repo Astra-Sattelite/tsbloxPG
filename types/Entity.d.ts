@@ -1,4 +1,5 @@
 type Entity = Model & {
-	Body: Part;
+	Legs: Part;
 	Head: Part;
+	Body: Part;
 }
