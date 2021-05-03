@@ -20,9 +20,27 @@ export class Tests {
         game.Workspace.TestPart.Material = Enum.Material.Neon
         // Lesson 3: dice game
         let dice = () => {
-            print("dice")
+
+            let dice1 = game.Workspace.GameParts.Dice.Dice1
+            let dice2 = game.Workspace.GameParts.Dice.Dice2
+
+            dice1.Anchored = false
+
+            wait(0.5)
+
+            dice2.Anchored = false 
+            
         }
         dice()
+        // Lesson 5
+
+        let make = () => {
+            let myPart = new Instance("Part")
+            myPart.Position = new Vector3(5,5,5)
+
+            myPart.Parent = game.Workspace
+        }
+        make()
     }
 }
 

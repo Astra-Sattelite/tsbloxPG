@@ -8,6 +8,13 @@ declare global {
             Body: Part;
         }
         TestPart: Part & {
-        }  
+        }
+        
+        GameParts: Model & {
+            Dice: Model & {
+                Dice1: Part;
+                Dice2: Part;
+            }
+        }
     }
 }

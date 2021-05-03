@@ -7,7 +7,6 @@ let Start = () => {
 
 Start()
 
-
 let Update = () => { 
     print("Wow, I'm print")
     Update()
